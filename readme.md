@@ -7,7 +7,7 @@
 
 > pip install -r requirements.txt
 
-> python3 main.py
+> python3 linux.py
 
 ## Windows: 
 > python -m venv venv
@@ -16,7 +16,7 @@
 
 > pip install -r requirements.txt
 
-> python main.py
+> python windows.py
 
 
 ## Resultado:
