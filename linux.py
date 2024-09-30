@@ -1,17 +1,11 @@
 import pandas as pd
-# import arff
 from scipy.io.arff import loadarff
 
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import tree
 import matplotlib.pyplot as plt
 
-def readFile(file_path: str):    
-    # fp = open(file_path)
-    # data = arff.load(fp)    
-
-    # df = pd.DataFrame(data, columns=['Tempo', 'Temperatura', 'Umidade', 'Vento', 'Jogar'])    
-    # return df
+def readFile(file_path: str):       
     data = loadarff(file_path)
     df = pd.DataFrame(data[0], columns=['Tempo', 'Temperatura', 'Umidade', 'Vento', 'Jogar'])
     return df
