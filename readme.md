@@ -17,3 +17,8 @@
 > pip install -r requirements.txt
 
 > python main.py
+
+
+## Resultado:
+
+![Arvore](./demo/tree.png)
