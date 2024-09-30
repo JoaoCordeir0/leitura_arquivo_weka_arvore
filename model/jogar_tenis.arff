@@ -1,0 +1,23 @@
+@RELATION jogar_tenis
+
+@ATTRIBUTE Tempo {Ensolarado, Nublado, Chuvoso}
+@ATTRIBUTE Temperatura {Quente, Ameno, Frio}
+@ATTRIBUTE Umidade {Alta, Normal}
+@ATTRIBUTE Vento {Fraco, Forte}
+@ATTRIBUTE Jogar {Sim, Nao}
+
+@DATA
+Ensolarado,Quente,Alta,Fraco,Nao
+Ensolarado,Quente,Alta,Forte,Nao
+Nublado,Quente,Alta,Fraco,Sim
+Chuvoso,Ameno,Alta,Fraco,Sim
+Chuvoso,Frio,Normal,Fraco,Sim
+Chuvoso,Frio,Normal,Forte,Nao
+Nublado,Frio,Normal,Forte,Sim
+Ensolarado,Ameno,Alta,Fraco,Nao
+Ensolarado,Frio,Normal,Fraco,Sim
+Chuvoso,Ameno,Normal,Fraco,Sim
+Ensolarado,Ameno,Normal,Forte,Sim
+Nublado,Ameno,Alta,Forte,Sim
+Nublado,Quente,Normal,Fraco,Sim
+Chuvoso,Ameno,Alta,Forte,Nao
